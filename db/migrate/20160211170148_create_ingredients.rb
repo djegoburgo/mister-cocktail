@@ -3,7 +3,7 @@ class CreateIngredients < ActiveRecord::Migration
     create_table :ingredients do |t|
       t.string :name
 
-      t.timestamps null: false
+      t.timestamps
     end
   end
 end

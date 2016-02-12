@@ -3,7 +3,7 @@ class CreateCocktails < ActiveRecord::Migration
     create_table :cocktails do |t|
       t.string :name
 
-      t.timestamps null: false
+      t.timestamps
     end
   end
 end
